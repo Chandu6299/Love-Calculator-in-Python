@@ -22,7 +22,7 @@ c=str(a)+str(b)
 cf = int(c)
 if cf < 10 or cf >90 :
     print(f"your love percentage is {c}%, you go together like coke and mentos")
-    elif cf <= 50 and cf >= 40:
+elif cf <= 50 and cf >= 40:
          print(f"your love percentage is {c}%, you are alright together")
 else:
     print(f"your love percentage is {c}%")
